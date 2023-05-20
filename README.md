@@ -49,14 +49,14 @@ SE adjuntan capturas de la aplicación:
 ![pagina de inicio](https://github.com/EduardoArratia/app-talento-digital/blob/main/CapturasPantalla/MAPOUT%20READ%20ME.jpg)
 
 2.- Mantenedor:
-![pagina de inicio](C:\Users\eduar\OneDrive\Escritorio\BOOTCAMP\Modulo8\APLICACION MAPA\CapturasPantalla\usuarios registrados.jpg)
+![pagina de inicio](https://github.com/EduardoArratia/app-talento-digital/blob/main/CapturasPantalla/usuarios%20registrados.jpg)
 
 3.-MAPA:
-![pagina de inicio](C:\Users\eduar\OneDrive\Escritorio\BOOTCAMP\Modulo8\APLICACION MAPA\CapturasPantalla\MAPA.jpg)
+![pagina de inicio](https://github.com/EduardoArratia/app-talento-digital/blob/main/CapturasPantalla/MAPA.jpg)
 
 4.- Proximos eventos y agregar evento.
 ![pagina de inicio](C:\Users\eduar\OneDrive\Escritorio\BOOTCAMP\Modulo8\APLICACION MAPA\CapturasPantalla\PROXIMOS EVENTOS.jpg)
-![pagina de inicio](C:\Users\eduar\OneDrive\Escritorio\BOOTCAMP\Modulo8\APLICACION MAPA\CapturasPantalla\agregarEvento.jpg)
+![pagina de inicio](https://github.com/EduardoArratia/app-talento-digital/blob/main/CapturasPantalla/agregarEvento.jpg)
 
 
 
