@@ -55,7 +55,7 @@ SE adjuntan capturas de la aplicación:
 ![pagina de inicio](https://github.com/EduardoArratia/app-talento-digital/blob/main/CapturasPantalla/MAPA.jpg)
 
 4.- Proximos eventos y agregar evento.
-![pagina de inicio](C:\Users\eduar\OneDrive\Escritorio\BOOTCAMP\Modulo8\APLICACION MAPA\CapturasPantalla\PROXIMOS EVENTOS.jpg)
+![pagina de inicio](https://github.com/EduardoArratia/app-talento-digital/blob/main/CapturasPantalla/PROXIMOS%20EVENTOS.jpg)
 ![pagina de inicio](https://github.com/EduardoArratia/app-talento-digital/blob/main/CapturasPantalla/agregarEvento.jpg)
 
 
