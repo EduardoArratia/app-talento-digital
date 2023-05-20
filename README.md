@@ -46,7 +46,7 @@ Esta Aplicación está funcionando en el puerto 3000
 SE adjuntan capturas de la aplicación:
 
 1.- Pagina de inicio:
-![pagina de inicio](C:\Users\eduar\OneDrive\Escritorio\BOOTCAMP\Modulo8\APLICACION MAPA\CapturasPantalla\MAPOUT READ ME.jpg)
+![pagina de inicio](https://github.com/EduardoArratia/app-talento-digital/blob/main/CapturasPantalla/MAPOUT READ ME.jpg)
 
 2.- Mantenedor:
 ![pagina de inicio](C:\Users\eduar\OneDrive\Escritorio\BOOTCAMP\Modulo8\APLICACION MAPA\CapturasPantalla\usuarios registrados.jpg)
