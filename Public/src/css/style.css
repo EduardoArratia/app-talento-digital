@@ -1,0 +1,443 @@
+/* root {} para setear de manera general*/
+
+:root {
+    --main-font-family: 'Rubik Mono One', sans-serif;
+    --main-color: rgb(0, 0, 0);
+    --p-font-family: Helvetica;
+
+
+}
+
+p {
+    font-family: var(--p-font-family);
+    /* background-color:  rgb(224, 198, 112);
+    border-radius: 5px; */
+    font-weight: bolder;
+    color: var(--main-color);
+    margin-left: 100px;
+    margin-bottom: 70px;
+    padding: 5px;
+}
+
+.titulo {
+    color: var(--main-color);
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    font-size: 34pt;
+
+}
+
+.tituloevento {
+    color: var(--main-color);
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    font-size: 14pt;
+    margin: 0;
+
+}
+
+.textoevento {
+    color: var(--main-color);
+    font-family: var(--p-font-family);
+    font-weight: bold;
+    font-size: 10pt;
+    margin: 0;
+
+}
+
+.bienvenido {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    color:  rgb(224, 198, 112);
+    background-color: rgba(0, 0, 0, 0.481);
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    font-size: 34pt;
+    
+}
+
+.pinicio {
+    text-align: center;
+    color: var(--main-color);
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    font-size: 12pt;
+    
+}
+.footer1{
+    margin-top:20%;
+    display: flex;
+    text-align: end left;
+    font-family: var(--main-font-family);
+    color: var(--main-color);
+    font-size: 9pt;
+
+}
+
+.div2 {
+    display: grid;
+}
+
+a {
+    color: inherit;
+    font-family: var(--main-font-family);
+    color: var(--main-color);
+
+
+}
+
+
+#navbar {
+    display: flex;
+    background-color: rgba(224, 198, 112, 0.453);
+    font-family: var(--main-font-family);
+}
+
+
+.encabezado {
+    display: flex;
+
+}
+
+.dot-inicio {
+    justify-items: center;
+    justify-items: center;
+    margin-top: 50px;
+    height: 25px;
+
+}
+
+.fondo {
+    background-image: url("/src/images/MARKET_S.jpg");
+    /* siempre debe terminar en JPG */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+;
+
+@media (max-width:667px) {
+    .fondo {
+        background-image: url("/src/images/MARKET_S.jpg");
+        background-repeat:repeath
+        
+        
+    }
+
+    ;
+}
+
+/* TOTAL CARDS*/
+.total-cards {
+
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+
+
+@media (max-width: 1067px) {
+    .total-cards {
+        display: block;
+
+
+    }
+}
+
+
+/* CARD INICIO */
+
+.cardtienda {
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: #4e8cb2;
+    padding: 10px;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+.card {
+
+    background-image: url("/src/images/DOT_cafe.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+}
+
+
+
+.container2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+
+}
+
+.card2 {
+
+    background-color: rgb(224, 198, 112);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10%;
+    padding: 10%;
+    height: auto;
+}
+
+.card3 {
+
+    align-items: center;
+    background-color: rgb(224, 198, 112);
+    border-radius: 20px;
+    background-size: 10px;
+    margin: 5%;
+    margin-bottom: 10%;
+    padding: 5%;
+    height: min-content;
+}
+
+#inicio-btn {
+    display: flex;
+    position: absolute;
+    top: 10px; /* Ajusta la posición vertical según sea necesario */
+    left: 10px; /* Ajusta la posición horizontal según sea necesario */
+    z-index: 9999; /* Asegura que el botón esté por encima del mapa */
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 10%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(224, 198, 112);
+    font-family: var(--main-font-family);
+    text-decoration: none;
+    color: var(--main-color);
+  }
+.sesion-btn  {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: auto;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(224, 198, 112);
+    font-family: var(--main-font-family);
+    font-size: 9pt;
+    text-decoration: none;
+    color: var(--main-color);
+  }
+
+  .registro-btn  {
+    display: flex;
+    align-items: left;
+   margin: auto;
+    width: auto;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(224, 198, 112);
+    font-family: var(--main-font-family);
+    text-decoration: none;
+    color: var(--main-color);
+  }
+
+.botonAgregar {
+
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(154, 134, 68);
+    font-family: var(--main-font-family);
+    text-decoration: none;
+    color: var(--main-color);
+
+}
+
+
+
+
+/* CARD categoria */
+
+.iniciosesion {
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+    text-align: center;
+    background-image: url("/src/images/DOT_cafe.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    height: 210px;
+
+}
+.registro {
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+    text-align: center;
+    background-image: url("/src/images/DOT_cafe.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    height: 210px;
+
+}
+.total-cards-sesion {
+
+    display: block;
+    align-items: center;
+
+
+
+}
+
+
+.mercado {
+    box-sizing: content-box;
+    grid-column-start: 2;
+    justify-content: center;
+    text-align: left;
+
+}
+
+
+.perfil {
+    box-sizing: content-box;
+    grid-column-start: 1;
+    text-align: left;
+
+}
+
+
+
+.arquitectura {
+    box-sizing: content-box;
+    grid-column-start: 2;
+    text-align: left;
+
+}
+
+.aplicacionweb {
+    box-sizing: content-box;
+    grid-column-start: 3;
+    text-align: left;
+
+}
+
+.bootcamp {
+    box-sizing: content-box;
+    grid-column-start: 4;
+    text-align: left;
+
+}
+
+
+.linkinicio {
+    box-sizing: content-box;
+    font-weight: bold;
+    justify-content: left;
+    text-align: left;
+    font-size: 25pt;
+    margin-left: 100px;
+    padding-top: 50px;
+
+}
+
+.formulario-iniciosesion {
+    list-style-type: none;
+    margin-top: 10%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.campo {
+
+    justify-content: left;
+    text-align: left;
+    font-size: 12pt;
+    color: var(--main-color);
+    border-radius: 20px;
+    width: 100%;
+}
+
+.boton-iniciosesion {
+
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #325971;
+    text-decoration: none;
+    color: var(--main-color)
+}
+
+.boton-iniciosesion:hover {
+
+    background-color: #0EB1D2;
+    color: #325971;
+    font-weight: bolder;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* MAPA  */
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* .container{
+        position: absolute;
+        top: 2%;
+        left:45%;
+    } */
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font-family: var(--p-font-family);
+    position: absolute;
+    background-color:  rgb(224, 198, 112);
+}
+
+.map-popup {
+    padding: 0px;
+    top: -10px;
+}

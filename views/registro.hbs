@@ -1,0 +1,40 @@
+{{#> template}}
+ <nav id="navbar">
+        <ul>
+            <a style="text-decoration: none" href="/" >Inicio</a>
+        </ul>
+        <ul>
+            <a style="text-decoration: none" href="/mapa" >Mapa</a>
+        </ul>
+    </nav>
+
+<div class="total-cards-sesion ">
+    <div class="iniciosesion">
+        
+        <form action="registro" method="POST">
+            <h3 class="titulo">Crear Usuario</h3>
+            <div class="campo">
+                <label class="pinicio">Nombre</label>
+                <input type="text" name="nombre">
+            </div>
+            <div class="campo">
+                <label class="pinicio">Apellido</label>
+                <input type="text" name="apellido">
+            </div>
+            <div class="campo">
+                <label class="pinicio">edad </label>
+                <input type="text" name="edad">
+            </div>
+            <div class="campo">
+                <label class="pinicio">Email </label>
+                <input type="text" name="correo">
+            </div>
+            <div class="campo">
+                <label class="pinicio">Contraseña</label>
+                <input type="password" name="contraseña">
+                <input class="sesion-btn" type="submit" value="Crear usuario">
+            </div>
+        </form>
+    </div>
+</div>
+{{/template}}

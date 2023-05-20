@@ -1,0 +1,67 @@
+
+//PARA TABLA REGIONES
+
+TABLE numero_region(
+    idregion SERIAL NOT NULL,
+    region character varying,
+    PRIMARY KEY(idregion)
+);
+Es importante insertar los datos correctamente ya que la id corresponde al numero de region en la tabla de "EVENTO", considerando la region metropolitana como número 7.
+INSERT INTO numero_region (region) VALUES "Arica y parinacota" 
+INSERT INTO numero_region (region) VALUES "Tarapacá"
+INSERT INTO numero_region (region) VALUES "Antofagasta"
+INSERT INTO numero_region (region) VALUES "Atacama"
+INSERT INTO numero_region (region) VALUES "Coquimbo"
+INSERT INTO numero_region (region) VALUES "Valparaiso"
+INSERT INTO numero_region (region) VALUES "Metropolitana"
+INSERT INTO numero_region (region) VALUES "O'higgins"
+INSERT INTO numero_region (region) VALUES "Maule"
+INSERT INTO numero_region (region) VALUES "Ñuble"
+INSERT INTO numero_region (region) VALUES "BioBio"
+INSERT INTO numero_region (region) VALUES "La Araucanía"
+INSERT INTO numero_region (region) VALUES "Los Ríos"
+INSERT INTO numero_region (region) VALUES "Los Lagos"
+INSERT INTO numero_region (region) VALUES "Aysén"
+INSERT INTO numero_region (region) VALUES "Magallanes"
+
+
+//PARA TABLA EVENTO
+CREATE TABLE evento(  
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(150),
+    region int,
+    ciudad varchar(150),
+    direccion VARCHAR(150),
+    coordenadas GEOMETRY(Point,4326),
+    fechainicio DATE,
+    fechatermino DATE
+   
+);
+
+// INSERTAR EVENTO
+
+INSERT INTO evento (nombre, direccion, coordenadas, fechainicio, fechatermino)
+VALUES ('Festival de Viña del Mar', 'Avenida Libertad 250',ST_GeomFromText('POINT(-71.552287 -33.017241)', 4326) // va al reves las coordenadas
+, '2023-02-20', '2023-02-25');
+
+-- Evento: Festival de Viña del Mar
+INSERT INTO evento (nombre, region, ciudad, direccion, coordenadas, fechainicio, fechatermino)
+VALUES ('Festival de Viña del Mar', 5, 'Viña del Mar', 'Avenida San Martín 199, Viña del Mar', ST_GeomFromText('POINT(-71.5413 -33.0261)', 4326), '2023-03-01', '2023-03-05');
+
+-- Evento: Concierto en el Anfiteatro de Valparaíso
+INSERT INTO evento (nombre, region, ciudad, direccion, coordenadas, fechainicio, fechatermino)
+VALUES ('Concierto en el Anfiteatro de Valparaíso', 5, 'Valparaíso', 'Cerro Bellavista, Valparaíso', ST_GeomFromText('POINT(-71.6185 -33.0395)', 4326), '2023-05-10', '2023-05-10');
+
+-- Evento: Feria de Artesanía en Viña del Mar
+INSERT INTO evento (nombre, region, ciudad, direccion, coordenadas, fechainicio, fechatermino)
+VALUES ('Feria de Artesanía en Viña del Mar', 5, 'Viña del Mar', 'Plaza México, Viña del Mar', ST_GeomFromText('POINT(-71.5457 -33.0172)', 4326), '2023-07-20', '2023-07-25');
+
+-- Evento: Exposición de Arte en Valparaíso
+INSERT INTO evento (nombre, region, ciudad, direccion, coordenadas, fechainicio, fechatermino)
+VALUES ('Exposición de Arte en Valparaíso', 5, 'Valparaíso', 'Galería de Arte Valparaíso, Valparaíso', ST_GeomFromText('POINT(-71.6189 -33.0416)', 4326), '2023-09-05', '2023-09-15');
+
+-- Evento: Carrera de Bicicletas en Viña del Mar
+INSERT INTO evento (nombre, region, ciudad, direccion, coordenadas, fechainicio, fechatermino)
+VALUES ('Carrera de Bicicletas en Viña del Mar', 5, 'Viña del Mar', 'Playa Acapulco, Viña del Mar', ST_GeomFromText('POINT(-71.5157 -33.0274)', 4326), '2023-12-01', '2023-12-02');
+
+

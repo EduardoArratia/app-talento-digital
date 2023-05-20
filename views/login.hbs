@@ -1,0 +1,36 @@
+{{#> template}}
+ <nav id="navbar">
+        <ul>
+            <a style="text-decoration: none" href="/" >Inicio</a>
+        </ul>
+        <ul>
+            <a style="text-decoration: none" href="/mapa" >Mapa</a>
+        </ul>
+    </nav>
+
+<div class="total-cards-sesion ">                      
+        <div class="iniciosesion "> 
+            
+            <form action="login" method="POST"> {{!-- BUSCAR INFO DE ACTION --}}
+                <h3 class="titulo">Iniciar Sesión</h3> 
+                <div class="campo">
+                    <label class="pinicio" >Usuario/Email </label>
+                    <input type="text" name="username" >  {{!-- Se usa username porque acá se pide esa variables en routes "passport.use(new PassportLocal(function(-->username,password,done)"{ --}}
+                </div>
+
+                <div class="campo">
+                    <label class="pinicio" >Contraseña</label>
+                    <input type="password" name="password" >
+                </div>
+                <div>
+                    <input class="sesion-btn" type="submit" value="Iniciar Sesion">
+                </div>
+                
+                    <a class="registro-btn"style="text-decoration: none" href="/registro">registrate</a>
+               
+            </form>  
+        </div> 
+</div>
+
+
+{{/template}}

@@ -1,0 +1,31 @@
+{{#> template}}
+  <nav id="navbar">
+        <ul>
+            
+            <a style="text-decoration: none" href="/" >Inicio</a>
+        </ul>
+        <ul>
+            <a style="text-decoration: none" href="/mapa" >Mapa</a>
+        </ul>
+    </nav>
+
+    <body class="pinicio">
+        
+        
+        <div class="pinicio">
+            <h3 class="titulo"> USUARIOS REGISTRADOS</h3>
+            {{#each usuarios}}
+            <ul class="pinicio">
+                <li class="pinicio">Nombre:</li>{{nombre}}
+                <li>{{apellido}}</li>
+                <li>/{{edad}} años</li>
+                <li>/contacto:{{correo}} </li>
+                <li>tipo de usuario:{{tipo_usuario}}</li> 
+                
+            </ul>
+
+            {{/each}}
+        </div>
+    </body>
+    
+{{/template}}
